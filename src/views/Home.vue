@@ -1,18 +1,7 @@
 <template>
   <v-container>
-    <div>Home</div>
+    <div class="text-h3 text-center">Do you want humor in your life?</div>
+    <p class="pa-2 font-weight-medium text-center">If no, then leave now or have your lack of humor imperiled.</p>
+    <p class="pa-2 font-weight-medium text-center">If you're still here, click them buttons up top.</p>
   </v-container>
 </template>
-
-<script lang="ts">
-import { defineComponent } from 'vue'
-
-export default defineComponent({
-  name: 'Home',
-  data() {
-    return {
-      //
-    }
-  }
-})
-</script>
